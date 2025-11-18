@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+}
+
+/* Header */
+header {
+    background: #4e73df;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+
+/* Main Content */
+main {
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+/* Hover effect on main card */
+main:hover {
+    transform: scale(1.02);
+}
+
+/* Profile Picture */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 3px solid #4e73df;
+}
+
+/* Text sections */
+div {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Skills section */
+h3 {
+    color: #4e73df;
+    border-bottom: 2px solid #4e73df;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ol li {
+    margin: 8px 0;
+}
+
+/* GitHub link styling */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #4e73df;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background: #2e59d9;
+    transform: translateY(-2px);
+}
